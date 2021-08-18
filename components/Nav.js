@@ -20,9 +20,10 @@ const Nav = () => {
                     -2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,
                     2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,
                     2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg>
-                <Image className="rounded  "
+                <Image className="rounded "
                     height="33"
                     width="33"
+                    alt="images"
                     src={Avatar} />
             </div>
         </nav>
