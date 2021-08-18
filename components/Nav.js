@@ -5,8 +5,8 @@ import Avatar from '../components/images/Avatar.png'
 
 const Nav = () => {
     return (
-        <nav className={navStyles.nav}>
-            <div className="pr-4">
+        <nav className={`${navStyles.nav}`}>
+            <div className="pr-4 hidden md:flex">
                 <Link href="/">Gmail</Link>
                 <Link href="/">Images</Link>
             </div>
@@ -21,8 +21,8 @@ const Nav = () => {
                     2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,
                     2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg>
                 <Image className="rounded "
-                    height="33"
-                    width="33"
+                    height="25"
+                    width="25"
                     alt="images"
                     src={Avatar} />
             </div>

@@ -8,16 +8,20 @@ function Footer() {
                 <p>Nigeria</p>
             </div>
             <div className="flex flex-1 px-6 items-center flex-wrap justify-between">
-                <div className={style.first}>
+                <div className={`${style.first} order-last md:order-first pl-12 md:flex-none md:flex`}>
                     <Link href="/" >About</Link>
                     <Link href="/">Advertising</Link>
                     <Link href="/">Business</Link>
-                    <Link href="/">How Search works</Link>
+                    <div className="hidden md:flex">
+                    <Link  href="/">How Search works</Link>
+                    </div>
+                    
                 </div>
-                <div>
-                    <div href="/">Carbon neutral since 2007</div>
+                <div className="hidden md:flex">
+                 
+                       < Link  href="/" >Carbon neutral since 2007</Link>
                 </div>
-                <div className={style.second}>
+                <div className={`${style.second} pl-12`}>
                     <Link href="/">Privacy</Link>
                     <Link href="/">Terms</Link>
                     <Link href="/">Settings</Link>
