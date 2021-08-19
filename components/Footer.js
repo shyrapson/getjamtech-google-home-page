@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import style from "../styles/Layout.module.css"
 import Image from 'next/image'
-import Leaf from '../components/images/leaf.png'
+import Leaf from '../components/images/Leaf.png'
 
 function Footer() {
     return (
@@ -21,7 +21,7 @@ function Footer() {
 
                 <div className="hidden md:flex md:items-center md:mr-36 md:justify-around">
                     <Link href='/'>
-                        <Image src={Leaf} alt='image' width="12" height="14" className="p-3" />
+                        <Image src={Leaf} alt='image' width="12" height="14" />
                     </Link>
                     <div className="p-2">
                         <Link href="/" >Carbon neutral since 2007</Link>
