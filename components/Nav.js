@@ -11,7 +11,7 @@ const Nav = () => {
                 <Link href="/">Images</Link>
             </div>
             <div className="flex items-center justify-center pr-4">
-                <svg className="h-6 w-6 mr-3" focusable="false" viewBox="0 0 24 24">
+                <svg className="h-6 w-7 mr-3" focusable="false" viewBox="0 0 24 24">
                     <path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,
                     2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,
                     2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,
@@ -21,8 +21,8 @@ const Nav = () => {
                     2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,
                     2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg>
                 <Image className="rounded "
-                    height="25"
-                    width="25"
+                    height="32"
+                    width="32"
                     alt="images"
                     src={Avatar} />
             </div>
